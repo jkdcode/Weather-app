@@ -2,10 +2,11 @@ body {
   background-color: #f7f7f8;
   font-family: "Rethink Sans", sans-serif;
 }
-h1 {
-  color: #aed8cc;
-  font-size: 50px;
+
+main {
+  padding: 30px 0;
 }
+
 a {
   color: #aed8cc;
   text-decoration: none;
@@ -49,6 +50,15 @@ footer {
   background: #f7f7f8;
   color: #461959;
   cursor: pointer;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+.weather-app-city {
+  color: #aed8cc;
+  font-size: 50px;
 }
 
 .humidity-data,
