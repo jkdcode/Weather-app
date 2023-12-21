@@ -7,37 +7,39 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city ..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>✨ Oslo ✨</h1>
-        <p>
-          Weekday hh:mm, brief description of weather <br />
-          Humidity: xx%, Wind: x.xx km/h
-        </p>
-      </div>
-      <div><p>⛅xx°C</p></div>
-    </main>
-    <footer>
-      This project was coded by
-      <a
-        href="https://www.shecodes.io/graduates/98989-julie-didriksen"
-        target="_blank"
-        >Julie Didriksen</a
-      >. It is on
-      <a href="https://github.com/jkdcode/Weather-app" target="_blank"
-        >GitHub</a
-      >
-      and is hosted on
-      <a href="https://julies-weather-app.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form id="search-form">
+          <input type="search" placeholder="Enter a city ..." required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>✨ Oslo ✨</h1>
+          <p>
+            Weekday hh:mm, brief description of weather <br />
+            Humidity: xx%, Wind: x.xx km/h
+          </p>
+        </div>
+        <div><p>⛅xx°C</p></div>
+      </main>
+      <footer>
+        This project was coded by
+        <a
+          href="https://www.shecodes.io/graduates/98989-julie-didriksen"
+          target="_blank"
+          >Julie Didriksen</a
+        >. It is on
+        <a href="https://github.com/jkdcode/Weather-app" target="_blank"
+          >GitHub</a
+        >
+        and is hosted on
+        <a href="https://julies-weather-app.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
   </body>
   <script src="src/index.js"></script>
 </html>
