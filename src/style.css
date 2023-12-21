@@ -22,9 +22,36 @@ footer {
   padding: 25px 0 0 0;
 }
 
+.search-form-input {
+  background-color: #f7f7f8;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 80%;
+  padding: 15px 10px;
+  font-style: italic;
+}
+
+.search-form-button {
+  background: #cd6688;
+  color: #f7f7f8;
+  padding: 15px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.search-form-button:hover {
+  background: #f7f7f8;
+  color: #461959;
+  cursor: pointer;
+}
+
 .humidity-data,
 .wind-data {
-  color: #aed8cc;
+  color: #cd6688;
   font-weight: bold;
 }
 .weather-app {
