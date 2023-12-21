@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather app</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="weather-app">
@@ -16,10 +26,11 @@
       </header>
       <main>
         <div>
-          <h1>✨ Oslo ✨</h1>
+          <h1>City name here</h1>
           <p>
             Weekday hh:mm, brief description of weather <br />
-            Humidity: xx%, Wind: x.xx km/h
+            Humidity: <span id="humidity-data">xx</span>%, Wind:
+            <span id="wind-data">x.xx</span> km/h
           </p>
         </div>
         <div><p>⛅xx°C</p></div>
