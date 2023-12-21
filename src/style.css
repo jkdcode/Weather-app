@@ -57,8 +57,14 @@ footer {
   justify-content: space-between;
 }
 .weather-app-city {
+  margin: 0;
   color: #aed8cc;
-  font-size: 50px;
+  font-size: 40px;
+}
+
+.weather-app-details {
+  font-size: 16px;
+  line-height: 25px;
 }
 
 .humidity-data,
