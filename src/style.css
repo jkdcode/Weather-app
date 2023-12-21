@@ -4,6 +4,7 @@ body {
 }
 h1 {
   color: #aed8cc;
+  font-size: 50px;
 }
 a {
   color: #aed8cc;
@@ -14,8 +15,15 @@ a:hover {
   text-decoration: underline;
 }
 
-#humidity-data,
-#wind-data {
+footer {
+  text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  padding: 25px 0 0 0;
+}
+
+.humidity-data,
+.wind-data {
   color: #aed8cc;
   font-weight: bold;
 }
