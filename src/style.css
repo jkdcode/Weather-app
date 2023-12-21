@@ -17,9 +17,11 @@ a:hover {
 
 footer {
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   font-style: italic;
+  border-top: 1px solid #cd6688;
   padding: 25px 0 0 0;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .search-form-input {
