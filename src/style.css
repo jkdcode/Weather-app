@@ -25,6 +25,10 @@ footer {
   color: rgba(255, 255, 255, 0.8);
 }
 
+.day-and-time {
+  margin: 0 0 20px 0;
+}
+
 .search-form-input {
   background-color: #f7f7f8;
   border: none;
@@ -59,7 +63,7 @@ footer {
 .weather-app-city {
   margin: 0;
   color: #aed8cc;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .weather-app-details {
