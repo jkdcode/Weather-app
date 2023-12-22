@@ -29,6 +29,13 @@ footer {
   margin: 0 0 20px 0;
 }
 
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .search-form-input {
   background-color: #f7f7f8;
   border: none;
@@ -37,6 +44,7 @@ footer {
   width: 80%;
   padding: 15px 10px;
   font-style: italic;
+  flex: 1;
 }
 
 .search-form-button {
