@@ -99,6 +99,7 @@ footer {
   display: flex;
   align-items: flex-start;
   margin-top: -25px;
+  margin-right: 10px;
 }
 
 .weather-app-temperature-value {
