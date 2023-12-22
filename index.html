@@ -19,11 +19,12 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city ..."
             required
+            id="search-form-input"
             class="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
@@ -32,16 +33,16 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city">City name here</h1>
+            <h1 class="weather-app-city" id="city">Oslo</h1>
             <p class="weather-app-details">
-              Weekday hh:mm, brief description of weather <br />
-              Humidity: <span class="humidity-data">xx%</span>, wind speed:
-              <span class="wind-data">x.xx km/h</span>
+              Weekday hh:mm, brief description of weather. <br />
+              Humidity: <span class="humidity-data">30%</span>, wind speed:
+              <span class="wind-data">3.33 km/h</span>
             </p>
           </div>
           <div class="weather-app-temperature-container">
             <div class="weather-app-icon">⛅</div>
-            <div class="weather-app-temperature-value">24</div>
+            <div class="weather-app-temperature-value">10</div>
             <div class="weather-app-temperature-unit">°C</div>
           </div>
         </div>
@@ -70,6 +71,6 @@
         >.
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
-  <script src="src/index.js"></script>
 </html>
