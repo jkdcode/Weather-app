@@ -7,7 +7,12 @@ function refreshWeather(response) {
   let windSpeedElement = document.querySelector("#wind-speed");
 
   cityElement.innerHTML = response.data.city;
-  descriptionElement.innerHTML = response.data.condition.description;
+
+  let weatherDescription = response.data.condition.description;
+  let capitalizedDescription =
+    weatherDescription.charAt(0).toUpperCase() + weatherDescription.slice(1);
+
+  descriptionElement.innerHTML = capitalizedDescription;
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
   windSpeedElement.innerHTML = `${response.data.wind.speed} km/h`;
   temperatureElement.innerHTML = Math.round(temperature);
