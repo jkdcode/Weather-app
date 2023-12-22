@@ -34,23 +34,27 @@
       </header>
       <main>
         <div class="weather-app-data">
-          <div>
+          <div class="weather-app-details">
             <h1 class="weather-app-city" id="city"></h1>
-            <p class="weather-app-details">
-              <span class="weather-description" id="weather-description"
-                >Brief description of weather</span
-              >
-              <br />
+            <p class="weather-description" id="weather-description">
+              Brief description of weather
+            </p>
+            <p>
               Humidity: <span class="humidity-data" id="humidity"></span>
               <br />
-              Wind speed:
-              <span class="wind-data" id="wind-speed"></span>
+              Wind speed: <span class="wind-data" id="wind-speed"></span>
             </p>
           </div>
           <div class="weather-app-temperature-container">
-            <div class="weather-app-icon">⛅</div>
-            <div class="weather-app-temperature-value" id="temperature"></div>
-            <div class="weather-app-temperature-unit">°C</div>
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-night.png"
+              alt=""
+              class="weather-app-icon"
+            />
+            <div class="weather-app-temperature">
+              <div class="weather-app-temperature-value" id="temperature"></div>
+              <div class="weather-app-temperature-unit">°C</div>
+            </div>
           </div>
         </div>
       </main>
