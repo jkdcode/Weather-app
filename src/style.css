@@ -134,6 +134,8 @@ footer {
   border-top: 1px solid #cd6688;
   padding: 25px 0 0 0;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .weather-forecast-date {
