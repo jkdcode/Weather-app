@@ -18,7 +18,7 @@ a:hover {
 
 footer {
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   font-style: italic;
   border-top: 1px solid #cd6688;
   padding: 25px 0 0 0;
@@ -27,6 +27,7 @@ footer {
 
 .day-and-time {
   margin: 0 0 20px 0;
+  opacity: 0.6;
 }
 
 .search-form {
@@ -129,10 +130,15 @@ footer {
   padding: 50px;
 }
 
-.weather-forecast {
+.weather-forecast-heading {
   margin-top: 20px;
   border-top: 1px solid #cd6688;
-  padding: 25px 0 0 0;
+  padding: 15px 0 25px 0;
+  color: #f7f7f8;
+  font-size: 20px;
+}
+
+.weather-forecast {
   text-align: center;
   display: flex;
   justify-content: space-around;

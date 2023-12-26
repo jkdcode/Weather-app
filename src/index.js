@@ -8,6 +8,9 @@ function refreshWeather(response) {
   let timeElement = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
   let iconElement = document.querySelector("#icon");
+  let forecastHeadingElement = document.querySelector(
+    "#weather-forecast-heading"
+  );
   let weatherDescription = response.data.condition.description;
   let capitalizedDescription =
     weatherDescription.charAt(0).toUpperCase() + weatherDescription.slice(1);
@@ -18,6 +21,7 @@ function refreshWeather(response) {
   windSpeedElement.innerHTML = `${response.data.wind.speed} km/h`;
   temperatureElement.innerHTML = Math.round(temperature);
   iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class="weather-app-icon"/>`;
+  forecastHeadingElement.innerHTML = `The next few days in ${response.data.city}:`;
 
   getForecast(response.data.city);
 }
